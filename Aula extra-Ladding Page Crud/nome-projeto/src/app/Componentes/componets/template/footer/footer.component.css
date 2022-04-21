@@ -1,0 +1,8 @@
+.container{
+    background-color: blue;
+    padding: 20px, 50px,20px,50px;
+    display:flex;
+    flex-direction: row-reverse;
+    height: 1cm;
+    color: white;
+}

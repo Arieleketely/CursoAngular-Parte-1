@@ -1,0 +1,13 @@
+
+.item{
+   
+    text-decoration: none;
+    color:aquamarine;
+    margin:10px;
+    border-radius: 10px;
+    background: blue;
+}
+
+.flex {
+	display: flex;
+}

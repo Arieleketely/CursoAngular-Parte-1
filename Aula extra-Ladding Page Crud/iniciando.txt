@@ -1,0 +1,63 @@
+ng new nome-projeto
+cd nome-projeto
+npm install -g @angular/cli
+npm i @angular/material
+npm install
+ng serve
+
+
+
+Crie a pasta components dentro da pasta app e o arquivo de rotas
+
+ng generate module app-routing --flat --module=app
+
+
+Modifique o arquivo de rotas
+
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {Routes,RouterModule} from '@angular/router';
+import { HomeComponent } from '../Rotas/home/home.component';
+
+import { ProductCrudComponent } from '../Rotas/product-crud/product-crud.component';
+
+const routes:Routes=[
+  {
+
+  path:"",
+  component:HomeComponent
+},
+
+{
+  path:"product",
+  component:ProductCrudComponent
+},
+];
+
+@NgModule({
+  imports: [ RouterModule.forRoot(routes)],
+    exports:[RouterModule]
+})
+export class AppRoutingModule { }
+
+
+
+crie um componente home e product-crud em uma pasta rotas
+
+
+ng  g c home/
+
+
+ ng  g c product-crud/
+
+
+
+Em componentes crie os componentes e chamar no html do app
+
+ ng  g c componets/template/header
+
+
+ ng  g c componets/template/footer
+
+
+

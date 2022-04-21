@@ -1,0 +1,11 @@
+.primary{
+    background-color: blue;
+    color:white;
+height: 1cm;
+    margin:0;
+    width: 100%;
+}
+
+body{
+    background-color:darkgray;
+}
