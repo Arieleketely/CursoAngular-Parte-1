@@ -1,0 +1,9 @@
+Eeculte no diretorio:
+
+mkdir bankend
+cd bankend
+npm install
+npm i json-server
+
+
+Vai para aula 2

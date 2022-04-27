@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+mat-toolbar .novo  {
+  
+    background:Gray;
+}
+body{
+    background: black;
+}
+.branco{
+    color: white;
+}

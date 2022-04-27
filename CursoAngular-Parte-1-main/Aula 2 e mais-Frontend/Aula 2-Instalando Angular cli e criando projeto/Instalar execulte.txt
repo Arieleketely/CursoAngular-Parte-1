@@ -1,0 +1,5 @@
+cd Pasta
+ng new nome-projeto
+cd nome-projeto
+npm install -g @angular/cli
+ng serve
