@@ -1,6 +1,0 @@
- ng  g c componets/template/header
-
-
- ng  g c componets/template/footer
-
- ng  g c componets/template/nav

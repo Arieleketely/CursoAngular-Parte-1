@@ -1,2 +1,0 @@
- ng g d letra/
- ng g d for/
