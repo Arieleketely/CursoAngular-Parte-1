@@ -20,7 +20,17 @@
     <td mat-cell *matCellDef="let element"> {{element.rua}} </td>
   </ng-container>
 
-  
+  <ng-container matColumnDef="Actions">
+    <th mat-header-cell *matHeaderCellDef> Ações </th>
+    
+    <td mat-cell *matCellDef="let element"> {{element.actions}} 
+    
+      <button mat-button color="primary">Cadastrar</button>
+      <button mat-button color="primary">Alterar</button>
+      <button mat-raised-button color="primary">Deletar</button>
+    </td>
+    
+  </ng-container>
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
