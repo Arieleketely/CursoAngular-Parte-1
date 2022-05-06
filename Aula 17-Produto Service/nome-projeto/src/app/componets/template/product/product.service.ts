@@ -11,8 +11,10 @@ export class ProductService {
   showMensager(msg:string):void{
     this.snackBar.open(msg,'X',{
       duration:3000,
+      
       horizontalPosition:"right",
-      verticalPosition:"top"
+      verticalPosition:"top",
+      panelClass: ['my-snack-bar']
     })
   }
 }
