@@ -19,6 +19,6 @@ createProduct():void{
   this.productService.showMensager('--------------------'+'Atenção Produto criado!')
 }
 deleteProduct():void{
-  this.router.navigate(['/products'])
+  this.router.navigate(['/product'])
 }
 }
