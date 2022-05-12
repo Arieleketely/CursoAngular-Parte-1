@@ -22,6 +22,10 @@ import { LetraDirective } from './Diretivas/letra.directive';
 import { ProductCreateComponent } from './componets/template/product/product-create/product-create.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import {FormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -48,6 +52,10 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatSnackBarModule,
 HttpClientModule,
+FormsModule,
+MatInputModule,
+MatFormFieldModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

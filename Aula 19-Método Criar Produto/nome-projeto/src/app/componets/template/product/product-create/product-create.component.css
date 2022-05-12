@@ -1,0 +1,21 @@
+button{
+    margin-left:70px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+}
+
+input{
+    background-color:gray;
+    height: 20px;
+    width: 200px;
+    margin:2px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+    
