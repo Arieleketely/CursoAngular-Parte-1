@@ -1,0 +1,22 @@
+
+<mat-card-title>Novo Produto:</mat-card-title>
+<form>
+    <mat-form-field>
+      Nome:  <input matInput
+        [(ngModel)]="product.name" name="name">
+    </mat-form-field>
+
+    <mat-form-field>
+        Preço:<input matInput 
+        [(ngModel)]="product.price" name="price">
+    </mat-form-field>
+
+
+</form>
+<button mat-raised-button (click)="createProduct()">
+    Criar produto 
+    </button>
+    
+    <button mat-raised-button (click)="deleteProduct()">
+        Deletar
+        </button>
