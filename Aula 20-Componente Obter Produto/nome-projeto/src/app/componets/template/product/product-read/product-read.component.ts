@@ -1,5 +1,9 @@
+import { ProductService } from './../product.service';
+
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from 'src/app/componets/template/product/product.service';
+
+import { Product } from './../product.module';
+
 
 @Component({
   selector: 'app-product-read',
@@ -7,14 +11,13 @@ import { ProductService } from 'src/app/componets/template/product/product.servi
   styleUrls: ['./product-read.component.css']
 })
 export class ProductReadComponent implements OnInit {
-products:Product[]
-  constructor(private productService:ProductService) { }
+  products!: Product[];
+  constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
-    this.productService.read().subscribe(this.products=>
-      {
+    this.productService.read().subscribe(products=>{
         this.products=products
-        console
+        console.log(products)
       })
   }
 
